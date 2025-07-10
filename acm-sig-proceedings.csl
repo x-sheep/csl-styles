@@ -61,13 +61,13 @@
       <text variable="citation-number"/>
     </layout>
   </citation>
-  <bibliography entry-spacing="0" second-field-align="flush" et-al-min="3" et-al-use-first="1">
+  <bibliography entry-spacing="0" et-al-min="3" et-al-use-first="1">
     <sort>
       <key macro="author"/>
       <key variable="title"/>
     </sort>
     <layout suffix=".">
-      <text variable="citation-number" prefix="[" suffix="]"/>
+      <!-- <text variable="citation-number" prefix="[" suffix="]"/> -->
       <text macro="author" suffix=" "/>
       <date variable="issued" suffix=". ">
         <date-part name="year"/>
